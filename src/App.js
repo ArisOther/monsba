@@ -31,6 +31,7 @@ class App extends Component {
     const filteredMonsters = monsters.filter(monsterIndv => monsterIndv.name.toLowerCase().includes(searchField.toLowerCase()))
     return (
       <div className='App'>
+        <h1>Monstba</h1>
         {/* component SearchBox dengan handleChange jadi satu/nempel di component */}
         {/* <SearchBox placeholder='search monsters' handleChange={e => this.setState({searchField: e.target.value})}/> */}
         
